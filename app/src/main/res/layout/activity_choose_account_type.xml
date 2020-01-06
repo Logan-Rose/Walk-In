@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Main_ChooseAccountType">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="100dp"
+        android:paddingTop="200dp"
+        android:paddingRight="100dp">
+
+        <TextView
+            android:id="@+id/accountType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:gravity="center_horizontal"
+            android:text="@string/typeLabel"
+            android:textAllCaps="true"
+            android:textColor="#DDE6E9"
+            android:textSize="19dp" />
+
+        <Button
+            android:id="@+id/buttonPatient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button"
+            android:fontFamily="@font/comfortaa_bold"
+            android:text="@string/buttonPatientLabel"
+            android:textColor="#DDE6E9"
+            android:textStyle="normal|bold"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless"/>
+
+        <Button
+            android:id="@+id/buttonClinic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:fontFamily="@font/comfortaa_bold"
+            android:text="@string/buttonClinicLabel"
+            android:textColor="#DDE6E9"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

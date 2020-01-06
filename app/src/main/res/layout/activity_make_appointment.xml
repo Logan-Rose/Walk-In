@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="15dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/ratingNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:hint="Enter in a rating!"
+        android:inputType="numberSigned"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/roleGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonMakeAppointment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:clickable="true"
+            android:fontFamily="@font/comfortaa_bold"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:text="Book Appointment"
+            android:textColor="#DDE6E9"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonRateClinic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:clickable="true"
+            android:fontFamily="@font/comfortaa_bold"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:text="Rate This Clinic"
+            android:textColor="#DDE6E9"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

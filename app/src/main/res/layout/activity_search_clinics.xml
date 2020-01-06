@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Main_LoggedIn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="102dp">
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ClinicTerminal"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="right|center_horizontal|center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/comfortaa_bold"
+                android:gravity="center"
+                android:text="Patient Terminal"
+                android:textColor="#DDE6E9"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                android:visibility="visible"
+                tools:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/profile"
+                app:srcCompat="@drawable/logo"
+                tools:srcCompat="@drawable/logo"
+                tools:visibility="visible" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/Welcome_Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="right|center_horizontal|center_vertical"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/textbox"
+            android:fontFamily="@font/comfortaa_bold"
+            android:padding="15dp"
+            android:text="Welcome to Walk-In, the cutting edge of walking clinic technologies, enter the name of clinic below to book an appointment, or rate a clinic! If you dont know the names of any nearby search clinics, chust press the search button"
+            android:textColor="#DDE6E9"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp">
+
+                <EditText
+                    android:id="@+id/searchBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/roundedcorner"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="40dp"
+                    android:textSize="22sp" />
+
+                <ImageButton
+                    android:id="@+id/Search"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignRight="@id/searchBar"
+                    android:layout_marginRight="7dp"
+                    android:background="@android:drawable/ic_menu_search"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackgroundBorderless"
+                    android:foregroundGravity="top"
+                    android:src="@android:drawable/ic_search_category_default" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listClinics"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/searchitembox"
+            android:scrollbarAlwaysDrawHorizontalTrack="false"
+            android:scrollbarAlwaysDrawVerticalTrack="false"
+            android:scrollbars="none"
+            android:textColor="#142039">
+
+        </ListView>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

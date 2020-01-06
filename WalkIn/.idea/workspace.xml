@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a7f138a2-99bd-40b2-8f0f-be31e10a33a3" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Copy_of_Pixel_2_API_24_2" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>toast</find>
+      <find>datasnapshot</find>
+      <find>serviceList</find>
+      <find>services</find>
+      <find>Availab</find>
+      <find>Log</find>
+      <find>for</find>
+      <find>weekday</find>
+      <find>availabilities</find>
+      <find>Weekly</find>
+      <find>newUser</find>
+      <find>USER</find>
+      <find>getUID</find>
+      <find>A</find>
+      <find>FirebaseDatabase</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/walkin/Clinic.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/walkin/ViewClinicServices.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/walkin/ServiceList.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/walkin/addClinicTime.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/walkin/ClinicViewServices.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/walkin/ClinicViewAvailabilities.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_sign_up.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/walkin/SignUp.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/walkin/Schedule_Week.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/walkin/Clinic_WeeklySchedule.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/walkin/Clinic_WeeklyAvailabilityList.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/walkin/Daily_Availability.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_edit_weekly_time.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_clinic_view_services.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/walkin/Clinic_EditWeeklyTime.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/walkin/Clinic_ActivityScreen.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/walkin/Clinic_AddTime.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/walkin/Clinic_Availability.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/walkin/Clinic_AvailabilityList.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_availability_list.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_clinic_view_avalibilities.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/walkin/Clinic_WeeklyViewAvailabilities.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_clinic_view_weekly_avalibilities.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_add_clinic_time.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/walkin/Clinic_Update_Availability.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/walkin/Clinic_ViewAvailabilities.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/walkin/Clinic_Update_Availabilities.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/walkin/Clinic_UpdateDialog.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_update_availability.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_weekly_availability_list.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1489" />
+    <option name="width" value="1523" />
+    <option name="height" value="1941" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="PackagesPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_2_API_28" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-11-28T16:45:49.433Z" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.walkin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\Software\Fixed\Pear_Studios\WalkIn\WalkIn\app\src\main\res\layout" />
+      <recent name="C:\Users\User\Documents\Software\Fixed\Pear_Studios\WalkIn\WalkIn\app\src\main\java\com\example\walkin" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7f138a2-99bd-40b2-8f0f-be31e10a33a3" name="Default Changelist" comment="" />
+      <created>1574297875990</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574297875990</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="851" y="0" width="870" height="1109" extended-state="0" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.4004796" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" weight="0.32857144" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.4969743" weight="0.42880523" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.30278233" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50378215" side_tool="true" visible="true" weight="0.32310838" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49621785" visible="true" weight="0.3207856" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.3289689" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Preview" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.295764" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" weight="0.32857144" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.49848714" weight="0.42880523" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.30278233" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5015129" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49924356" weight="0.23895253" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Preview" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/ViewClinicServices.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/SignUp.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sign_up.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/Clinic_WeeklySchedule.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_confirm_service.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_welcome_loggedin.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/Clinic_ActivityScreen.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/Clinic_Availability.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/Clinic_ConfirmService.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/Clinic_EditWeeklyTime.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/Clinic_ServiceList.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/Clinic_WeeklyAvailabilityList.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/Daily_Availability.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/Main_LoggedIn.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/Patient.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/User.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/User_List.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_availability_list.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_clinic__screen.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_clinic_view_services.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_view_clinic_services.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_weekly_time.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/User_Signup.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_patient__book_rate.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_clinic_view_avalibilities.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/Clinic_WeeklyViewAvailabilities.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/Clinic_ChooseServices.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/Clinic_AvailabilityList.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_clinic_view_availabilities.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/Patient_BookRate.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/Patient_ActivityScreen.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/Patient_searchClinics.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/Patient_viewServices.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/Admin_EditUsers.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/Admin_UpdateDialog.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/User_Update.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/Clinic_AddTime.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_clinic_time.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/Clinic_OfferedServices.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_clinic_update_dialog.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/Clinic_Update_Availabilities.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_update_dialog.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/Clinic_UpdateDialog.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_service_list.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_patient_clinic_list.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/walkin/Clinic_ViewAvailabilities.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_clinic_view_weekly_avalibilities.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_update_availability.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_weekly_availability_list.xml" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20261438" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

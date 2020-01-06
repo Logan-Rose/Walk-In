@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.walkin">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label=""
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Main_SignUp"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".User_Signup"
+            android:parentActivityName=".Main_ChooseAccountType" />
+
+        <activity
+            android:name=".Main_LoggedIn"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity
+            android:name=".Main_ChooseAccountType"
+            android:parentActivityName=".MainActivity"/>
+
+
+
+        <activity
+            android:name=".Admin_ActivityScreen"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".Admin"
+            android:parentActivityName=".Admin_ActivityScreen"/>
+
+        <activity android:name=".Admin_EditUsers"
+            android:parentActivityName=".Admin_ActivityScreen"/>
+
+
+
+        <activity
+            android:name=".Clinic_OfferedServices"
+            android:parentActivityName=".Clinic_ActivityScreen"/>
+
+        <activity android:name=".Clinic_ConfirmService" />
+
+        <activity
+            android:name=".Clinic_ChooseServices"
+            android:parentActivityName=".Clinic_ActivityScreen"/>
+
+        <activity
+            android:name=".Clinic_ViewAvailabilities"
+            android:parentActivityName=".Clinic_WeeklyViewAvailabilities" />
+
+        <activity
+            android:name=".Clinic_AvailabilityList"
+            android:parentActivityName=".Clinic_ActivityScreen" />
+
+        <activity
+            android:name=".Clinic_AddTime"
+            android:parentActivityName=".Clinic_ActivityScreen" />
+
+        <activity
+            android:name=".Clinic_ActivityScreen"
+            android:parentActivityName=".MainActivity"/>
+
+
+        <activity
+            android:name=".Clinic_ServiceList"
+            android:parentActivityName=".Clinic_ActivityScreen"/>
+
+        <activity android:name=".Clinic_EditWeeklyTime" />
+
+        <activity
+            android:name=".Clinic_WeeklyViewAvailabilities"
+            android:parentActivityName=".Clinic_ActivityScreen" />
+
+        <activity
+            android:name=".Clinic_WeeklyAvailabilityList" />
+
+        <activity
+            android:name=".Daily_Availability"
+            android:parentActivityName=".Clinic_WeeklyViewAvailabilities"/>
+
+
+
+        <activity
+            android:name=".Patient_ClinicList"></activity>
+
+        <activity
+            android:name=".Patient_viewClinicsOfferingService"
+            android:parentActivityName=".Patient_viewServices"/>
+
+        <activity
+            android:name=".Patient_searchClinics"
+            android:parentActivityName=".Patient_ActivityScreen" />
+
+        <activity
+            android:name=".Patient_viewServices"
+            android:parentActivityName=".Patient_ActivityScreen" />
+
+        <activity
+            android:name=".Patient_ActivityScreen"
+            android:parentActivityName=".MainActivity"/>
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

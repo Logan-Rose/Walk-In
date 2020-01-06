@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Main_LoggedIn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ClinicTerminal"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="right|center_horizontal|center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/comfortaa_bold"
+                android:gravity="center"
+                android:text="Patient Terminal"
+                android:textColor="#DDE6E9"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                android:visibility="visible"
+                tools:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/profile"
+                app:srcCompat="@drawable/logo"
+                tools:srcCompat="@drawable/logo"
+                tools:visibility="visible" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="140dp">
+
+            <Button
+                android:id="@+id/button_viewServices"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button"
+                android:clickable="true"
+                android:fontFamily="@font/comfortaa_bold"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="View Available Services"
+                android:textColor="#DDE6E9"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:id="@+id/button_searchClinics"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button"
+                android:clickable="true"
+                android:fontFamily="@font/comfortaa_bold"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Search Clinics"
+                android:textColor="#DDE6E9"
+                android:textStyle="normal|bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
